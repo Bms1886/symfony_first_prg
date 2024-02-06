@@ -3,3 +3,19 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+accueil:
+    path: /accueil
+    controller: App\Controller\HomeController::bonjour
+
+redirectToRoute:
+    path: /redirectToRoute
+    controller: App\Controller\HomeController::aurevoir
+
+redirectolkd:
+    path : /redirectolkd
+    controller: App\Controller\HomeController::redirectlkd
+
+showtemplate: 
+    path : /showtemplate
+    controller: App\Controller\HomeController::showtemplate
